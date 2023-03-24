@@ -141,7 +141,7 @@ export const networkConfigs = {
   },
   zhejiang: {
     addresses: {
-      ensRegistry: 0xF3a9a676daF5425CfB0e797692DDC2c319dCb5CE,
+      ensRegistry: '0xF3a9a676daF5425CfB0e797692DDC2c319dCb5CE',
     },
     nodes: {
       defaultEth: 'ws://172.23.18.4:8546',
