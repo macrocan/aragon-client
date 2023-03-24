@@ -139,6 +139,21 @@ export const networkConfigs = {
     },
     providers: [{ id: 'provided' }, { id: 'frame' }],
   },
+  zhejiang: {
+    addresses: {
+      ensRegistry: 0xF3a9a676daF5425CfB0e797692DDC2c319dCb5CE,
+    },
+    nodes: {
+      defaultEth: 'ws://172.23.18.4:8546',
+    },
+    settings: {
+      name: `Zhejiang testnet`,
+      shortName: 'zhejiang',
+      type: 'zhejiang,
+      live: true,
+    },
+    providers: [{ id: 'provided' }, { id: 'frame' }],
+  },
   unknown: {
     addresses: {
       ensRegistry: localEnsRegistryAddress,
