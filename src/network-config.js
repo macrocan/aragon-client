@@ -147,6 +147,7 @@ export const networkConfigs = {
       defaultEth: 'ws://172.23.18.4:8546',
     },
     settings: {
+      chainId: 1337803,
       name: `Zhejiang testnet`,
       shortName: 'zhejiang',
       type: 'zhejiang',
