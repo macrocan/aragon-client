@@ -150,7 +150,7 @@ export const networkConfigs = {
       chainId: 1337803,
       name: `Zhejiang testnet`,
       shortName: 'zhejiang',
-      type: 'zhejiang',
+      type: 'private',
       live: true,
     },
     providers: [{ id: 'provided' }, { id: 'frame' }],
