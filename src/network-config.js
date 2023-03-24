@@ -149,7 +149,7 @@ export const networkConfigs = {
     settings: {
       name: `Zhejiang testnet`,
       shortName: 'zhejiang',
-      type: 'zhejiang,
+      type: 'zhejiang',
       live: true,
     },
     providers: [{ id: 'provided' }, { id: 'frame' }],
