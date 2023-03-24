@@ -110,6 +110,7 @@
     "start:staging": "cross-env ARAGON_ENS_REGISTRY_ADDRESS=0xfe03625ea880a8cba336f9b5ad6e15b0a3b5a939 npm start",
     "start:ropsten": "cross-env ARAGON_ETH_NETWORK_TYPE=ropsten npm start",
     "start:xdai": "cross-env ARAGON_ETH_NETWORK_TYPE=xdai npm start",
+    "start:zhejiang": "cross-env ARAGON_ETH_NETWORK_TYPE=zhejiang npm start",
     "build": "node scripts/build",
     "build:local": "node scripts/build-local",
     "build:mainnet": "cross-env ARAGON_ETH_NETWORK_TYPE=main npm run build",
@@ -117,6 +118,7 @@
     "build:staging": "cross-env ARAGON_ENS_REGISTRY_ADDRESS=0xfe03625ea880a8cba336f9b5ad6e15b0a3b5a939 npm run build",
     "build:ropsten": "cross-env ARAGON_ETH_NETWORK_TYPE=ropsten npm run build",
     "build:xdai": "cross-env ARAGON_ETH_NETWORK_TYPE=xdai npm run build",
+    "build:zhejiang": "cross-env ARAGON_ETH_NETWORK_TYPE=zhejiang npm run build",
     "lint": "eslint ./src",
     "test": "npm run lint && npm run jest",
     "jest": "jest",
@@ -134,7 +136,10 @@
     "publish:staging:patch": "npm run publish:patch -- --environment staging --build-script build:staging",
     "publish:ropsten:major": "npm run publish:major -- --environment ropsten --build-script build:ropsten",
     "publish:ropsten:minor": "npm run publish:minor -- --environment ropsten --build-script build:ropsten",
-    "publish:ropsten:patch": "npm run publish:patch -- --environment ropsten --build-script build:ropsten"
+    "publish:ropsten:patch": "npm run publish:patch -- --environment ropsten --build-script build:ropsten",
+    "publish:zhejiang:major": "npm run publish:major -- --environment zhejiang --build-script build:zhejiang",
+    "publish:zhejiang:minor": "npm run publish:minor -- --environment zhejiang --build-script build:zhejiang",
+    "publish:zhejiang:patch": "npm run publish:patch -- --environment zhejiang --build-script build:zhejiang"
   },
   "browserslist": {
     "development": ">2%, last 1 edge versions, not ie > 0, not op_mini all",
